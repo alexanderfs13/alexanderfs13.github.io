@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    background-color: black; 
+}    
+#navbar li{
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+nav a:hover{
+    font-weight: bolder;
+    color: lightseagreen;
+}
+/*Index css*/
+#indexh{
+    color: white;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    top: 220px;
+}
+/*End Index css*/
+/*whycybersecurity css*/
+#cyber{
+   
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#cyber1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+
